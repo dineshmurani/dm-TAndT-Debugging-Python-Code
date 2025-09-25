@@ -1,5 +1,4 @@
-print("Program has started".make_capital())
-print(x)
+print("Program has started".title())
 
 class Calorie:
 
@@ -21,5 +20,7 @@ class Calorie:
         filepath = "calories.txt"
         with open(filepath, 'w') as file: file.write(self.get_kj())
 
+
+
 calorie = Calorie(175, 70, 33, 30)
-calories = carolie.kj_to_file()
+calories = calorie.kj_to_file()
