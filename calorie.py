@@ -3,7 +3,7 @@ print(x)
 
 class Calorie:
 
-    def __init__(self, weight, height, age temperature):
+    def __init__(self, weight, height, age, temperature):
         self.weight = weight
         self.height = height
         self.age = age
@@ -22,4 +22,4 @@ class Calorie:
         with open(filepath, 'w') as file: file.write(self.get_kj())
 
 calorie = Calorie(175, 70, 33, 30)
-calories = carolie.kj_to_file())
+calories = carolie.kj_to_file()
