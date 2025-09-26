@@ -18,8 +18,8 @@ class Calorie:
 
     def kj_to_file(self):
         filepath = "calories.txt"
-        print(self.get_kj(), type(self.get_kj()))
-        with open(filepath, 'w') as file: file.write(str(self.get_kj()))
+        kj = self.get_kj()
+        with open(filepath, 'w') as file: file.write(str(kj))
 
 
 calorie = Calorie(175, 70, 33, 30)
